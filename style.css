@@ -1,0 +1,33 @@
+#Game {
+    text-align: center;
+}
+h1 {
+    color: black;
+    font-size: 45px;
+}
+#box1, #box2, #box3, #box4, #box5,
+#box6, #box7, #box8, #box9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+#button {
+    box-sizing: border-box;
+    width: 90px;
+    height: 35px;
+    border: none;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #243a6f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+p i, a{
+    color: #e53637;
+    text-decoration: none;
+}
