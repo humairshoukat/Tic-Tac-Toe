@@ -3,17 +3,32 @@
 <head>
 	<!-- Font Awesome Cdn -->
     <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tic Tac Toe - Game</title>
+
+	<!-- CSS file Included -->
     <link rel="stylesheet" href="style.css">
+
+	<!-- JavaScript file included -->
+	<script src="script.js"></script>
 </head>
 <body>
 	
 	<div id="Game">
 		<br><br>
 		<h1>Tic Tac Toe</h1>
+
+		<!-- Game Instructions -->
+		<p id="ins">
+			Game will start by just Tapping on any box
+			<br>First Player = <b>Player X</b>
+			| Second Player = <b>Player O</b>
+			<br><br>
+		</p>
 		
 		<input type="text" id="box1" onclick="f1();" readonly>
         <input type="text" id="box2" onclick="f2();" readonly>
@@ -27,13 +42,12 @@
 		<input type="text" id="box8" onclick="f8();" readonly>
 		<input type="text" id="box9" onclick="f9();" readonly>
 		<br><br><br>
+
 		<button id="button" onclick="f10()">RESET</button>
 		<br><br>
+
 		<p>Made with <i class="fa fa-heart-o" arial-hidden="true"></i> by <a href="https://www.linkedin.com/in/humairshoukat/">Humair Shoukat</a></p>
 	</div>
-
-
-    <script src="script.js"></script>
 
 </body>
 </html>
