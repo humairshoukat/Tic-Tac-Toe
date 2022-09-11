@@ -324,7 +324,7 @@ function myfun() {
 	else if ((box1 == 'X' || box1 == '0') && (box2 == 'X' || box2 == '0') && (box3 == 'X' || box3 == '0') 
 	    && (box4 == 'X' || box4 == '0') && (box5 == 'X' || box5 == '0') && (box6 == 'X' || box6 == '0') 
 		&& (box7 == 'X' || box7 == '0') && (box8 == 'X' || box8 == '0') && (box9 == 'X' || box9 == '0')) {
-			window.alert('Match Tie');
+			window.alert('Match Tie. Click Ok to Restart');
 			f10();
 	}
 
